@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-cyan: hsl(171, 66%, 44%);
+  --primary-blue: hsl(233, 100%, 69%);
+  --neutral-blue: hsl(210, 10%, 33%);
+  --neutral-grayish: hsl(201, 11%, 66%);
+  --title-text: 3em;
+  --title-secondary: 2em;
+  --title-card: 1.5em;
+  --body-text: 1em;
+  --weight-400: 400;
+  --weight-600: 600;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  width: 100vw;
+}
+
+p {
+  color: var(--neutral-grayish);
+  font-weight: var(--weight-400);
+  font-size: var(--body-text);
+  line-height: 25px;
+}
+
+h1 {
+  color: var(--neutral-blue);
+  font-weight: var(--weight-600);
+  font-size: var(--title-text);
+}
+
+h2 {
+  color: var(--neutral-blue);
+  font-weight: var(--weight-600);
+  font-size: var(--title-secondary);
+}
+
+h3 {
+  color: var(--neutral-blue);
+  font-weight: var(--weight-600);
+  font-size: var(--title-card);
+}
+
+.backgroundImg {
+  position: absolute;
+  width: 100%;
+}
+
+.Hero {
+  display: flex;
+  padding: 50px 50px 0 50px;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.heroText {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.heroText > p {
+  width: 30vw;
+}
+
+.heroBtns {
+  display: flex;
+  gap: 10px;
+}
+
+.heroDownloadIos,
+.downloadIos {
+  background-color: var(--primary-cyan);
+  font-size: var(--body-text);
+  padding: 15px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: var(--weight-600);
+  cursor: pointer;
+}
+
+.heroDownloadMac,
+.downloadMac {
+  background-color: var(--primary-blue);
+  font-size: var(--body-text);
+  padding: 15px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: var(--weight-600);
+  cursor: pointer;
+}
+
+.downloadIos:hover {
+  background-color: var(--neutral-grayish);
+}
+
+.featuresSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.featuresHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 33vw;
+  text-align: center;
+  gap: 25px;
+}
+
+.features {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -80px;
+  gap: 150px;
+  width: 100vw;
+}
+
+.featuresRelative {
+  left: 0;
+}
+
+.featuresImg > img {
+  width: 52vw;
+}
+
+.featuresText {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 75px;
+}
+.featuresCard {
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.accessSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.accessSection > .accessHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 32vw;
+  text-align: center;
+  gap: 1vw;
+}
+.accessImg {
+  margin-top: 100px;
+}
+.superSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.superHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vw;
+}
+.superCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 70vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+.superCards >;
+img {
+  padding: 25px;
+}
