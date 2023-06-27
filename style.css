@@ -186,6 +186,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 5vw;
 }
 .superHeader {
   display: flex;
@@ -197,13 +198,80 @@ h3 {
 .superCards {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-direction: row;
   width: 70vw;
   text-align: center;
-  margin-top: 2vw;
+  gap: 50px;
 }
-.superCards >;
-img {
-  padding: 25px;
+
+.superCard > img {
+  width: 35px;
+  margin-bottom: 20px;
+}
+
+.superCard {
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.companySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4vw;
+}
+
+.companyLogo {
+  width: 200px;
+}
+
+.clipboardSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2vw;
+}
+.clipboardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.clipboardHeader > p {
+  width: 600px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 95%);
+  padding: 2vw 12vw;
+  margin-top: 200px;
+}
+
+.footerLogo > img {
+  width: 75px;
+}
+
+.footerLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.footerLinks > a {
+  text-decoration: none;
+}
+
+.footerSocials {
+  display: flex;
+  gap: 25px;
 }
